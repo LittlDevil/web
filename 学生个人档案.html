@@ -1,1 +1,32 @@
-!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>学生个人档案</title>
+</head>
+<body>
+	<form action="">
+		<fieldset>
+			<legend>学生档案</legend>
+			<label>姓名:<input type="text"></label><br><br>
+			<label>手机号:<input type="tel" name=""></label><br><br>
+			<label>邮箱:<input type="email" name=""></label><br><br>
+			<label>所属学院:<input type="text" placeholder="请选择所属学院" list="xueyuan"></label>
+			<datalist id="xueyuan">
+				<option>计算机学院</option>
+				<option>电信学院</option>
+				<option>文法学院</option>
+				<option>艺术学院</option>
+			</datalist>
+			<br><br>
+			出生日期:<input type="date" name=""><br><br>
+			成绩:<input type="number" name=""><br><br>
+			毕业时间:<input type="date" name=""><br><br>
+			<input type="submit" value="提交"><input type="reset" name="">
+		</fieldset>
+	</form>
+
+
+	
+</body>
+</html>
